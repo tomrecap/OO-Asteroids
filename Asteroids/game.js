@@ -3,7 +3,7 @@
 
   var Game = Asteroids.Game = function(ctx) {
     this.ctx = ctx
-    this.asteroids = this.addAsteroids(5);
+    this.asteroids = this.addAsteroids(10);
     this.bullets = [];
     this.ship = new Asteroids.Ship([Game.DIM_X/2, Game.DIM_Y/2], [0,0]);
 
