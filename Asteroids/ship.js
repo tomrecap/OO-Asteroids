@@ -10,7 +10,7 @@
   };
 
   Ship.inherits(Asteroids.MovingObject);
-  Ship.COLOR = "purple";
+  Ship.COLOR = "hotpink";
   Ship.RADIUS = 15;
 
   Ship.prototype.power = function (impulse) {
@@ -32,7 +32,7 @@
   Ship.prototype.fireBullet = function () {
     if (this.isMoving()) {
 
-      var scalingFactor = 1200;
+      var scalingFactor = 6;
       var dir = this.direction();
       var bulletVelocity = [dir[0] * scalingFactor, dir[1] * scalingFactor];
 
@@ -41,10 +41,9 @@
   };
 
   Ship.prototype.direction = function () {
-    var position = this.pos.slice();
     var velocity = this.vel.slice();
 
-    var speed = Math.sqrt((position[0] * position[0]) + (position[1] * position[1]));
+    var speed = Math.sqrt((velocity[0] * velocity[0]) + (velocity[1] * velocity[1]));
     return ([velocity[0] / speed, velocity[1] / speed]);
   }
 
