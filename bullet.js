@@ -10,7 +10,7 @@
   }
 
   Bullet.inherits(Asteroids.MovingObject);
-  Bullet.COLOR = "red";
-  Bullet.RADIUS = 10;
+  Bullet.COLOR = "ff2800";
+  Bullet.RADIUS = 5;
 
 })(this);

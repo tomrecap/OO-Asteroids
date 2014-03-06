@@ -10,7 +10,7 @@
   };
 
   Ship.inherits(Asteroids.MovingObject);
-  Ship.COLOR = "hotpink";
+  Ship.COLOR = "#00bb3f";
   Ship.RADIUS = 15;
 
   Ship.prototype.power = function (impulse) {
