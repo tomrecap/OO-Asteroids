@@ -11,8 +11,8 @@
     this.background.src = "bg.png";
   };
 
-  Game.DIM_X = 600;
-  Game.DIM_Y = 600;
+  Game.DIM_X = 400;
+  Game.DIM_Y = 400;
 
   Game.prototype.addAsteroids = function (numAsteroids) {
     asteroid_array = [];
