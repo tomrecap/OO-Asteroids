@@ -1,6 +1,8 @@
 Asteroids
 =========
 
+[Click here to play!](http://thomaseliotcarroll.com/#recent-projects-section)
+
 This is a fully-functional Asteroids game, written in object-oriented Javascript and rendered with HTML5.
 
 ##Directions
